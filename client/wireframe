@@ -1,0 +1,38 @@
+
+      - Pages on our app (From the Wire-Frames)
+        - Root level public pages (No authentication required) 
+          - Home page (/) 
+          - About us page (/about) 
+          - Services page (/services) 
+          - Contact us page (/contact) 
+          - Admin page 
+            - Show only if logged in, link to the dashboard (/dashboard)
+          - Login (/login)
+          - Order details (/order/{orderHash}) 
+            - Not to be included on the menu 
+
+        - Admin (Login required) 
+          - Admin dashboard (/admin) (Only for admins)
+          - Employees (/admin/employees) (Only for admins)
+          - Add employee (/admin/add-employee) (Only for admins) 
+          - Edit employee (/admin/employee/edit/:id) (Only for admins)  
+          - Customers (/admin/customers) (Managers and Admins)  
+          - Add customer (/admin/add-customer) (Managers and Admins)  
+          - Edit customer (/admin/customer/edit/:id) (Managers and Admins)  
+          - Customer details (/admin/customer/{customerId}) (Managers and Admins) 
+          - Add vehicle (/admin/customer/{customerId}) - Conditionally displayed on the customer details page (Managers and Admins) 
+          - Orders (/admin/orders) (All Authenticated users) 
+          - Add order (/admin/order) (Managers and Admins)  
+          - Edit order (/admin/order/{orderHash}/edit) (Managers and Admins)  
+          - Services (/admin/services) (Only for admins) 
+          - Add service (/admin/add-service) (Only for admins) 
+
+
+
+ {/* { <OrderStepOne firstStep={firstStep} setFirstStep={setFirstStep} secondStep={secondStep} setSecondStep={setSecondStep} second={second} setSecond={setSecond} showTable={showTable} setShowTable={setShowTable} first={first} selectedCustomer={selectedCustomer} setSelectedCustomer={setSelectedCustomer}/>}
+        { <OrderStepThree selectedCustomer={selectedCustomer} vehicle={vehicle} setSelectedVehicles={setSelectedVehicles} />  } 
+       { <OrderStepFour selectedVehicle={selectedVehicle} /> } */}
+
+
+      % ? %
+ 

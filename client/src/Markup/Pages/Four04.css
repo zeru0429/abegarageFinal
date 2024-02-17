@@ -1,0 +1,29 @@
+.error-section{
+   background-image:url(../../assets/images/background/bg-1.jpg);
+   height: 300px;
+}
+
+.auto-container{
+
+
+}
+.content{
+   align-items: center;
+   text-align: center;
+   justify-self: center;
+   display: block;
+   padding-bottom: 100px;
+}
+.content h1{
+   font-size: 45px;
+}
+.content h2{
+   font-size: smaller;
+}
+
+.content h2 .tex{
+   font-size: smaller;
+}
+.content .a{
+   font-size: smaller;
+}
